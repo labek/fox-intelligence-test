@@ -4,8 +4,8 @@
 
 ## Description
 
-The application aims to retrieve useful informations within HTML file called "test.html" which represents train tickets.
-For doing so, I need to read the file, process it, sanitise it and at least, create a JSON file called "test-result.json".
+The application aims to retrieve useful informations within HTML file called `test.html` which represents train tickets.
+For doing so, I need to read the file, process it, sanitise it and at least, create a JSON file called `test-result.json`.
 
 ## Requirements
 
@@ -15,6 +15,8 @@ Here are the requirements:
 
 ## Useful commands
 
-|-
-
-
+| Commands  | Descripion                            |
+| --------- | ------------------------------------- |
+| start     | Start the application                 |
+| test      | Run tests                             |
+| build     | Build the app and generate a bundle   |
