@@ -1,0 +1,16 @@
+{
+  "name": "fox-intelligence",
+  "version": "1.0.0",
+  "description": "Le fichier test.html correspondant à des billets de train, et le fichier test-result.json qui est le résultat attendu. L'objectif est de réaliser un petit programme permettant de générer test-result.json. - langage libre - node.JS 8.9.3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Duong",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
