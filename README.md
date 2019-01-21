@@ -1,4 +1,4 @@
-# Train ticket Scrapper
+# Fox Intelligence Technical test
 
 ## Version: `1.0.0`
 
@@ -11,12 +11,12 @@ For doing so, I need to read the file, process it, sanitise it and at least, cre
 
 Here are the requirements:
 -   Language of choice
--   NodeJS 8.9.3
+-   NodeJS v8.9.3
 
 ## Useful commands
 
-| Commands  | Descripion                            |
-| --------- | ------------------------------------- |
-| start     | Start the application                 |
-| test      | Run tests                             |
-| build     | Build the app and generate a bundle   |
+| Commands  | Descripion            |
+| --------- | --------------------- |
+| start     | Start the application |
+| test      | Run tests             |
+| coverage  | Display code coverage |
