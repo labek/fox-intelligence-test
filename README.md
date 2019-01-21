@@ -13,6 +13,12 @@ Here are the requirements:
 -   Language of choice
 -   NodeJS v8.9.3
 
+## Getting started
+
+```sh
+npm install
+```
+
 ## Useful commands
 
 | Commands  | Descripion            |
