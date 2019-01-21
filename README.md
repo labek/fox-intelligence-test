@@ -13,7 +13,9 @@ Here are the requirements:
 -   Language of choice
 -   NodeJS v8.9.3
 
-## Getting started
+## Get started
+
+To start off, run the following command:
 
 ```sh
 npm install
