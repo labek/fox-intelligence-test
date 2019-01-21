@@ -2,15 +2,29 @@
   "name": "fox-intelligence",
   "version": "1.0.0",
   "description": "Le fichier test.html correspondant à des billets de train, et le fichier test-result.json qui est le résultat attendu. L'objectif est de réaliser un petit programme permettant de générer test-result.json. - langage libre - node.JS 8.9.3",
-  "main": "index.js",
+  "main": "app.ts",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint app.js ./src/*",
+    "test": "mocha",
+    "coverage": "nyc --reporter=text mocha"
   },
   "author": "David Duong",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "moment": "^2.23.0"
+  },
   "devDependencies": {
-    "typescript": "^3.2.2"
+    "chai": "^4.2.0",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "prettier": "^1.15.3",
+    "sinon": "^7.2.3"
   }
 }
